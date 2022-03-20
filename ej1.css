@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#caja {
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#caja2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#caja3 {
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45deg,blue,violet);
+}
+
