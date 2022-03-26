@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    
+
 </head>
+
 <body>
     <form name="formulario">
         <textarea name="texto" cols="50" rows="20" onkeypress="calcular()" onkeyup="calcular()"></textarea>
@@ -14,10 +16,10 @@
         <span id="total"></span>
     </form>
     <script>
-        function calcular(){
+        function calcular() {
             document.getElementById("total").innerHTML = document.formulario.texto.value.length;
         }
     </script>
 </body>
-</html>
 
+</html>
